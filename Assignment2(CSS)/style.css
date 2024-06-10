@@ -15,4 +15,18 @@ font-family: cursive;
 text-decoration-color: blueviolet;
 text-decoration-line: underline;
 text-shadow: 1px 1px #000;
+color: rgba(133, 95, 39, 0.579);
+}
+
+.a-link{
+    text-decoration: none;
+    color: rgb(23, 87, 144);
+}
+.read-more-button{
+    background-color: tomato;
+  border: none;
+    border-radius: 200px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 0px;
 }
