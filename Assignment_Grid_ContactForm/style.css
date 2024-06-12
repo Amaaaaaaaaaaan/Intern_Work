@@ -1,74 +1,121 @@
-.grid-container{
-    display: grid;
+.grid-container {
+  display: grid;
   grid-template-columns: auto auto auto auto;
   margin: 20px;
   padding-left: 180px;
   padding-top: 100px;
   /* grid-gap: 20px 40px 30px 10px; */
-  grid-column-gap:7px;
-  grid-row-gap:7px ;
-  background-color:none;
+  grid-column-gap: 7px;
+  grid-row-gap: 7px;
+  background-color: none;
 
-   } 
+}
 
 
-.grid-item{
-   background-color: rgba(255, 255, 255, 0.8);
-   border: 0px solid rgba(0, 0, 0, 0.8);
-   padding: 0px;
-   font-size: 30px;
-   text-align: center;
-  
-   transition: transform 0.4s ease-in-out 0s, opacity 1.63s ease 0s, filter 0.4s ease 0s; 
-   
- }
- .grid-item:hover{
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+
+  transition: transform 0.4s ease-in-out 0s, opacity 1.63s ease 0s, filter 0.4s ease 0s;
+
+}
+
+.grid-item:hover {
   ilter: brightness(0.95);
   transform: scale(1.02);
- }
-
- .item1{
+}
+.item1 {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
   height: 400px;
+}
 
-  
+.item2 {
+  height: 200px
+}
 
-  
-  
- }
- .item2{
-  height:200px
- }
- .item4{
-  height:190px;
+.item4 {
+  height: 190px;
 
- }
- 
- .item3{
+}
+
+.item3 {
   /* grid-row-start:1 ;
   grid-row-end: 3; */
-  height:100%;
+  height: 100%;
   /* grid-row: span 2; */
-  grid-column: 4 / 5; 
+  grid-column: 4 / 5;
   grid-row: 1 / 3;
   width: 50%;
- }
- .img-grid{
-object-fit: cover;
-width: 100%;
-height: 100%;  /* what made image perfectly fit in is this property i applied in CSS*/
- }
- /* display: inline-grid; */
-    /* grid-column-gap: 20px; */
-    /* grid-row-gap: 20px; */
-    /* ..........r     c */
-    /* grid-gap: 50px 100px;
+}
+
+.img-grid {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  /* what made image perfectly fit in is this property i applied in CSS*/
+}
+
+/* display: inline-grid; */
+/* grid-column-gap: 20px; */
+/* grid-row-gap: 20px; */
+/* ..........r     c */
+/* grid-gap: 50px 100px;
     grid-template-columns: auto auto auto;
     background-color: #2196F3;
     padding: 10px;
     margin-bottom: 40px;
 
 */
+
+/* second-grid coding*/
+.second-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  grid-template-rows: auto auto;
+  padding: 20px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px ;
+  /* margin-left:160px;
+  margin-right:100px; */
+  margin: 20px;
+  padding: 50px;
+  
+}
+.Sgrid-item {
+  background-color: rgba(79, 98, 145, 0.8);
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+
+  transition: transform 0.4s ease-in-out 0s, opacity 1.63s ease 0s, filter 0.4s ease 0s;
+
+}
+.seconditem1{
+  grid-column-start:1;
+  grid-column-end: 3;
+ 
+}
+.seconditem2{
+grid-column-start: 3;
+grid-column-end: 5;
+}
+.seconditem3{
+grid-column: span 1.5;
+  
+}
+.seconditem4{
+  grid-column: span 2;
+}
+
+.second-img-grid{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
