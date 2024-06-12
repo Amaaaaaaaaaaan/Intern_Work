@@ -12,19 +12,29 @@
    } 
 
 
-.grid-item {
+.grid-item{
    background-color: rgba(255, 255, 255, 0.8);
-   border: 1px solid rgba(0, 0, 0, 0.8);
+   border: 0px solid rgba(0, 0, 0, 0.8);
    padding: 0px;
    font-size: 30px;
    text-align: center;
+  
+   transition: transform 0.4s ease-in-out 0s, opacity 1.63s ease 0s, filter 0.4s ease 0s; 
+   
  }
+ .grid-item:hover{
+  ilter: brightness(0.95);
+  transform: scale(1.02);
+ }
+
  .item1{
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
   height: 400px;
+
+  
 
   
   
