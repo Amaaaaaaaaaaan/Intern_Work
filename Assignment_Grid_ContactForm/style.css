@@ -119,3 +119,105 @@ grid-column: span 1.5;
   height: 100%;
   width: 100%;
 }
+
+
+/*form*/
+.myheading{
+background-color: #0c0c0c;
+  font-family:"Poppins", Arial, sans-serif;
+  text-align: center;
+  padding-left: 0px;
+  padding-top:100px ;
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  line-height: 1.5;
+}
+/* .heading{
+  display: flex;
+  justify-content: center ;
+  align-content: center;
+
+} */
+ .container{
+  display: flex;
+justify-content: center;
+align-content: center;
+outline: snow;
+width: auto;
+gap:100px;
+padding-left: 100px;
+ }
+ .Flexitem1{
+padding-top: 50px;
+padding-right: 50px;
+ }
+ .Flexitem2{
+  padding-top: 40px;
+  padding-right:50px ;
+ }
+ .Flexitem3{
+   padding-top: 50px;
+ }
+ .textstyle{
+  font-family: "Poppins", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;font-family: "Poppins", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: normal;
+    background: #0c0c0c;
+    color: #666666;
+    text-align:justify;
+    
+ }
+ .myheading1{
+  background-color: #0c0c0c;
+    font-family:"Poppins", Arial, sans-serif;
+    text-align: center;
+    padding-left: 0px;
+    padding-top:30px ;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  
+  .form-input{
+    width: 40%;
+    height:50px;
+   padding-left:10px ;
+   padding-top:10px ;
+   padding-right:10px ;
+    margin-left: 439px ;
+    border-radius: 5px;
+    box-sizing: border-box;
+  
+    opacity:0.18;
+    background-color: gray;
+    margin-top:10px ;
+  }
+   .submit{
+    width: 40%;
+    height:50px;
+   padding-left:10px ;
+   padding-top:10px ;
+   padding-right:10px ;
+    margin-left: 439px ;
+    border-radius: 5px;
+    box-sizing: border-box;
+  
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;font-family: "Poppins", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight:700;
+  
+    color: #000000;
+    background-color: #f8eac6;
+    margin-top:10px ;
+  }
+  ::placeholder{
+    color: #ffffff;
+  }
